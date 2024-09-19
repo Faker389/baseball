@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Projukt -_-</title>
+    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';
+}
+li{
+    list-style-type: none;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 35px 100px 0;
+}
+header nav ul li:first-of-type{
+    margin-left: 0;
+}
+header nav ul li:last-of-type{
+    margin-right: 0;
+}
+header nav li{
+    margin: 0 15px;
+}
+header nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+header h2{
+    text-transform: uppercase;
+}
+header nav{
+    display: flex;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 170px 100px;
+}
+header section div p{
+    color: white;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 135px;
+    padding: 0px 20px;
+    line-height: 2;
+}
+
+.banner-area{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.banner-area .banner-img{
+    background-image: url(basketball_court.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+header section div p h1,h2,a{
+    color: white;
+    text-decoration: none;
+}
+#co{
+    margin-top: 40vh;
+    color: white;
+}
+.banner-area h1{
+margin-bottom: 15px;
+font-size: 60px;
+font-family: 'merienda';
+}
+.banner-area h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.banner-btn{
+    padding: 15px 35px;
+    background-color: crimson;
+    border-radius: 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.section-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+ul.about-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-content li{
+    padding: 20px;
+    height: 290px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+.about-left{
+    flex-basis: 40%;
+    background-image: url(basketball_shop.jpg);
+}
+.about-right{
+    flex-basis: 60%;
+}
+.about-right h2{
+    margin-bottom: 3%;
+}
+.about-right p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left:0;
+}
+.about-btn{
+    padding: 15px 35px;
+    background: crimson;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.services-area{
+    margin-top: 220px;
+    background-color: #ddd;
+    width: 99vw;
+}
+#services2{
+    background-color: white;
+}
+.services-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services-content li{
+    padding: 0px 30px;
+    width: 33%;
+    text-align: center;
+}
+#services2{
+    margin-top: 0
+}
+.services-content h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.services-content p{
+    padding: 0;
+}
+
+i{
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 25px;
+}
+@media(max-width:1000px){
+    .services-content li{
+        flex-basis: 51%;
+        margin-bottom: 65px;
+    }
+    .services-content li:last-of-type{
+        margin-bottom: 0;
+    }
+    .services-content p{
+        padding: 0;
+    }
+    #h2{
+        color: black;
+    }
+}
+@media(max-width:783px){
+    header{
+        flex-direction: column;
+    }
+
+    .banner-area h2{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    .banner-area h1{
+        margin-bottom: 8px;
+        font-size: 35px;
+    }
+    header h2{
+        margin-bottom: 15px;
+    }
+    header nav li{
+        margin: 0 7px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    #p{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .about-btn{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:1000px){
+    header{
+        padding: 20px 50px;
+    }
+    .about-left, .about-right{
+        flex-basis: 100%;
+    }
+
+        .about-content li{
+            padding: 8px;
+        }
+    .banner-area h1{
+        margin-bottom: 10px;
+        font-size: 45px;
+    }
+    .banner-area h2{
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+}
+footer{
+    background-color: black;
+    width:100%;
+    height: 120px;
+}
+footer p{
+    padding-top: 45px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
+</style>
+<body>
+    <header>
+        <h2>
+            <a href="">BasketShop</a></h2>
+        <nav>
+                <li><a href="#start">Start</a></li>
+                <li><a href="">Asortyment</a></li>
+                <li><a href="#services">Kolekcje</a></li>
+                <li><a href="">Promocja</a></li>
+                <li><a href="#services2">Kontakt</a></li>
+        </nav>
+    </header>
+    <section id="start" class="banner-area">
+        <div class="banner-img">
+            <p> <h1 id="co">Basketball Flexbox Website Shop</h1>
+            <h2>ZST Responsive Design</h2>
+            <a href="#" class="banner-btn">Zapraszamy!</a></p>
+        </div>
+    </section>
+
+    <section class="about-area" id="about">
+        <h3 class="section-title">Sklep sportowy</h3>
+        <ul class="about-content">
+            <li class="about-left"> </li>
+            <li class="about-right">
+                <h2 id="h2">Z  pasji  do  koszykówki</h2>
+                <p id="p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur molestiae nostrum ad placeat vitae minus reprehenderit, quisquam dicta magni similique veniam excepturi eaque impedit quo harum illum rem labore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut aspernatur illum magnam necessitatibus ab quo doloribus officiis blanditiis cupiditate reiciendis magni accusantium excepturi sed aperiam neque, vitae maiores nostrum? Est.</p>
+                <a href="" class="about-btn">Więcej...</a>
+            </li>
+        </ul>
+        <section class="services-area" id="services"><h3 class="section-title">Nasze usługi</h3>
+        <ul class="services-content">
+            <li><i class="fa fa-laptop"></i>
+            <h4>Sklep on-line</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, enim aperiam unde maxime ullam ipsum officia? Facilis, dicta itaque! Reiciendis modi suscipit, quia rem ipsum sit dicta animi rerum vero.</p>
+        </li>
+                <li><i class="fa fa-basketball-ball"></i>
+                <h4>Sklep on-line</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, enim aperiam unde maxime ullam ipsum officia? Facilis, dicta itaque! Reiciendis modi suscipit, quia rem ipsum sit dicta animi rerum vero.</p>
+            </li>
+                <li><i class="fa fa-tshirt"></i>
+                <h4>Sklep on-line</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, enim aperiam unde maxime ullam ipsum officia? Facilis, dicta itaque! Reiciendis modi suscipit, quia rem ipsum sit dicta animi rerum vero.</p>
+            </li>
+            </ul></section>
+</section>
+    </section>
+    <section class="services-area" id="services2"><h3 class="section-title">Dane Kontaktowe</h3>
+        <ul class="services-content">
+            <li><i class="fa-solid fa-location-pin"></i>
+            <h4><p>35-084 Rzeszów</p></h4>
+            <h4>Matuszczaka 7</h4>
+        </li>
+                <li><i class="fa-solid fa-phone"></i>
+                <h4>+48 982 898 520</h4>
+                <h4>+48 982 898 520</h4>
+            </li>
+                <li><i class="fa-solid fa-envelope"></i>
+                <h4>info@basketshop.pl</h4>
+                <h4>order@basketshop.pl</h4>
+            </li></ul></section>
+    <script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d54dfca89ad500d',m:'fRjI7uy0TKnuZ4z62mYEkbmlJSAPK_Vga8Rqrr63_.k-1643484617-0-ATeYh57k8VYnuaEDpPi4fz0mCP2EGYD4ZMxQQrpvu6jtv3rEUdo7z+UJhbE/2k+fexRbbJC9kIqpAGUVCzYJX5HUZ8UWisFrqfUsDaHton4SZzoJgAq9lZms/ljCa++KCZCexNs86gB/RkKILR2tpkKL4qUPIlUfpNQfEv54HCeu8gu000cwElKFK7ACAUGsMzVJ5zkL8DaN8M/ZOECQRAM=',s:[0xd5b1975e1b,0xc03bcc8d71],}})();</script>
+<footer><p>&copy;All Right Reserved by PSI Klasa ICT - ZST Rzeszów</p></footer>
+</body>
+</html>
